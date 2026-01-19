@@ -1,0 +1,16 @@
+[project]
+name = "my-3d-models"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "cadquery>=2.6.1",
+    "ocp>=0.1.4",
+    "pytest>=9.0.2",
+]
+
+[dependency-groups]
+dev = [
+    "cq-editor>=0.6.2",
+]
